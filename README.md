@@ -137,7 +137,7 @@ Readings are divided into a window of 2.56 seconds with 50% overlapping.
 if some class have too little or too large numbers of values compared to rest of the classes than the dataset is imbalanced.<br>
 **Plot-1**
 <br>
-<img src="p1.png" height=500 width=700>
+<img src="p1.png">
 <br><br>
 In this plot on the X-axis we have subjects(volunteers) 1 to 30. Each color represents an activity<br>
 On the y-axis we have amount of data for each activity by provided by each subject.<br>
