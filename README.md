@@ -68,12 +68,12 @@ As we go into 2022, I hope to include a much larger train and test sample so tha
 
 <br>
 **The Activities that this repository can currently predict are:**
-* Walking 
-* Sitting 
-* Standing 
-* Walking Upstairs 
-* Walking Downstairs 
-* Laying Down
+- Walking 
+- Sitting 
+- Standing 
+- Walking Upstairs 
+- Walking Downstairs 
+- Laying Down
 
 [**Accelerometers**](https://en.wikipedia.org/wiki/Accelerometer) detects the magnitude and direction of the acceleration as a vector quantity and can be used to help sense orientation due to direction of weight changes
 <br><br>
