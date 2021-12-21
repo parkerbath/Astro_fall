@@ -228,7 +228,7 @@ Diagonal Value of 1 means 100% accuracy for that class, and 0 means 0% accuracy.
 considering the diagonal elements we have value 1 for rows corresponding to 'Laying' and 'Walking'.<br>
 while 'sitting' has value of only 0.87. In the row 2nd row and 3rd column we have value 0.12 which basically means about 12% readings of the class sitting is misclassified as standing.
 
-
+The LSTM Model was adapted from https://github.com/srvds/Human-Activity-Recognition and I have to give them full credit for coming up with the right window to train the models. In the future, I plan to further fine tune this model to work with wearable sensors instead along with training/testing the model with more samples
 
 #### LSTM Model
 
@@ -317,30 +317,6 @@ Confusion Matrix
 | WALKING            | 0      | 1       | 0        | 473     | 10                 | 12               |
 | WALKING_DOWNSTAIRS | 0      | 0       | 0        | 0       | 420                | 0                |
 | WALKING_UPSTAIRS   | 0      | 0       | 0        | 0       | 1                  | 470              |
-
-**LSTM model 2**
-
-This model has 2 LSTM layers
-LSTM(128) and LSTM(64) stacked.
-
-```python
-
-# Initiliazing the sequential model
-model1 = Sequential()
-# Configuring the parameters
-model1.add(LSTM(n_hidden1, return_sequences=True, input_shape=(timesteps, input_dim)))
-# dropout layer
-model1.add(Dropout(pv1))
-
-model1.add(LSTM(n_hidden2))
-#  dropout layer
-model1.add(Dropout(pv2))
-# output layer with sigmoid activation
-model1.add(Dense(n_classes, activation='sigmoid'))
-model1.summary()
-```
-
-```python
 
 
 ## References:
