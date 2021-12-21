@@ -11,7 +11,7 @@ This repository is the groundwork of an up and coming mobile app called Astro!
 For this repo it is just focusing on the machine learning aspect of the app where it performs Human-Activity-Recognition on a relatively basic level using sensor data from smartphones
 This is done by people performing their daily life activities while carrying a waist-mounted smartphone that has accelerometer and gyroscope sensors
 
-NOTE FOR PARKER-- SEE IF YOU NEED THE LSTM MODEL AND THEN UPDATE THE PART RIGHT BELOW THIS AS YOU SEE FIT, THEN START WORKING ON THE COMMANDS FOR HOW TO INSTALL EACH OF THE DEPENDENCIES
+
 
 <br><br>
 The repository has 3 ipython notebook
