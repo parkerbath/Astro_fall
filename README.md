@@ -1,6 +1,6 @@
 December 2021
 
-** Project Astro:**
+Project Astro
 
 ===========================
 
