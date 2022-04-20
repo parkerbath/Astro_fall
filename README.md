@@ -1,4 +1,6 @@
-December 2021
+December 2021 
+
+## NOTE: UPDATED README COMING SOON
 
 Project Astro
 
